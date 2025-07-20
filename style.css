@@ -1,0 +1,84 @@
+html , body{
+    height: auto;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h1, h2, a, span, button{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.enfase{
+    font-weight: bold;
+}
+
+.enigma{
+    font-size: 20pt;
+    width: 75%;
+    text-align: center;
+    line-height: 56pt;
+}
+
+.resposta{
+    font-size: 20pt;
+    font-weight: 300;
+    font-style: italic;
+    height: 50px;
+    text-align: center;
+}
+
+.olho{
+    padding-top: 1000px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 400px;
+}
+.btn{
+    font-size:1.5rem;
+    margin-top:20px ;
+    width: 53%;
+}
+.erro{
+    opacity: 0%;
+}
+.textoClaro{
+    color: azure;
+    background-color: black;
+}
+.linkFinal{
+    padding-bottom: 10%;
+}
+.escuro{
+    background-color: black;
+}
+@media (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .enigma  {
+        font-size: 13pt;
+        line-height: 40px;
+        padding-top: 50px;
+        margin: 0;
+    }
+    .resposta{
+        font-size: 16pt;
+        height: 30px;
+        width: 50%;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+}
